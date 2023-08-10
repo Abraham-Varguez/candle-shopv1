@@ -1,26 +1,26 @@
 # candle-shopv1
-Candle Shop Inventory Java Program
-This is a basic Java program to manage candle shop inventory. It allows you to create candle products and print receipts.
+Candle Shop Inventory Program
+How the Code Functions
+The Candle class represents a candle product with name, amount, price, and burn time attributes.
+It has methods to calculate dollars per hour burned and print a formatted receipt.
+The CandleShop class creates a sample candle product and prints its receipt.
+How to Run the Code
+Make sure you have Java installed.
+Save the Candle.java and CandleShop.java files in the same directory.
+Open a terminal/command prompt and navigate to that directory.
+Compile with: javac Candle.java CandleShop.java
+Run with: java CandleShop
+Program Output
+Running CandleShop will print a sample receipt like:
+<!---->
+Copy code
 
-Candle Class
-The Candle class represents a candle product. It has three attributes:
-
-name - The name of the candle (e.g. "Luscious Lavender")
-amount - The quantity in stock (e.g. 3)
-price - The price per candle (e.g. $7.50)
-The Candle class has a constructor to create a new candle by passing in the name, amount, and price.
-
-It also has a printReceipt() method to print a formatted receipt for that candle.
-
-CandleShop Class
-The CandleShop class demonstrates using the Candle class.
-
-In the main() method, it creates a new Lavender candle product.
-
-It passes "Luscious Lavender" for the name, 3 for the amount, and 7.50 for the price.
-
-It then calls printReceipt() on that candle instance to print out the sample receipt.
-
-This shows how you can use the Candle class to model candle products in your inventory system.
-
-You would create more Candle instances to represent each unique product. And call printReceipt() to print orders, invoices, etc.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+Luscious Lavender
+Amount: 3
+Burn Time: 5 hours  
+Dollar per Burn Time: 1.50
+Price: $7.50
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+This shows the receipt formatting and information printed for a candle product.
+You could create more candle instances to print more receipts.
