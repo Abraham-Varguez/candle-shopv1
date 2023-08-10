@@ -6,7 +6,6 @@ public class Candle {
 
     public int burnTime;
 
-    public double DollarPerBurn = price / burnTime;
 
 
     //A constructor method to create the variables needed to be printed on to the receipt
