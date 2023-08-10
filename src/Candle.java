@@ -1,8 +1,8 @@
 public class Candle {
 
-    private String name;
-    private int amount;
-    private double price;
+    public String name;
+    public int amount;
+    public double price;
 
     public Candle(String name, int amount, double price) {
         this.name = name;
