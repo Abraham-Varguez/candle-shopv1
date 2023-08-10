@@ -1,5 +1,7 @@
 public class CandleShopReceipt {
 
+    //We are using this class to describe the items that are going to be printed onto the receipt and can call as many candles
+    //as we want here
     public static void main(String[] args) {
 
 
